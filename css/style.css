@@ -26,6 +26,9 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
 }
+.screen-text{
+    text-align: center;
+}
 .btn{
     background-color: rgb(50, 122, 255);
     display: flex;
