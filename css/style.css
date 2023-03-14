@@ -26,9 +26,6 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
 }
-.screen-text{
-    text-align: center;
-}
 .btn{
     background-color: rgb(50, 122, 255);
     display: flex;
@@ -43,10 +40,17 @@ body{
 .btn:hover{
     transform: scale(1.05);
 }
+.btn:active{
+    background-color: rgb(26, 56, 112);
+    color: white;
+}
 #cero{
-    grid-column: 1/3;
+    grid-column: 1/4;
 }
 #equal{
     grid-row: span 2;
     background-color: brown;
+}
+#equal:active{
+    background-color: rgb(105, 27, 27);
 }
